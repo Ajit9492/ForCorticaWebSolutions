@@ -7,7 +7,6 @@ export const ProductContext = createContext(null);
 const ProductContextProvider = (props) => {
     const [products, setProducts] = useState([]);
     const [history, setHistory] = useState(() => {
-        // Load history from localStorage
         const localHistory = localStorage.getItem('formHistory');
         return localHistory ? JSON.parse(localHistory) : [];
     });
@@ -38,3 +37,4 @@ const ProductContextProvider = (props) => {
 };
 
 export default ProductContextProvider;
+
