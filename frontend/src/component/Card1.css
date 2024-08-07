@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.price {
+    color: #28a745;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.area {
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.btn1, .btn2 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #0056b3;
+}
